@@ -4,7 +4,7 @@
 
 Provide functions to read symptoms, write possible illness and associated tests and treatments of disease list using [SWI-Prolog](http://www.swi-prolog.org/).
 
-This program was created for CS355: Principles of Programming Languages at Old Dominion University during Spring 20.
+This program was created for CS355: Principles of Programming Languages at Old Dominion University during Spring 2018.
 
 ## Usage
 
