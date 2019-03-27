@@ -4,17 +4,19 @@
 
 Provide functions to read symptoms, write possible illness and associated tests and treatments of disease list using [SWI-Prolog](http://www.swi-prolog.org/).
 
-This program was created for CS355: Principles of Programming Languages at Old Dominion University.
+This program was created for CS355: Principles of Programming Languages at Old Dominion University during Spring 20.
 
 ## Usage
 
-You will need [SWI-Prolog](http://www.swi-prolog.org/)
-```
+You will need [SWI-Prolog](http://www.swi-prolog.org/):
+
+```bash
 sudo apt install swi-prolog
 ```
 
-To start run the following from the src directory and consult the diseases dictionary
-```
+To start run the following from the src directory and consult the diseases dictionary:
+
+```bash
 $ swipl -s analyzer.pl
 
 ?- consult('diseases.pl').
@@ -22,7 +24,7 @@ $ swipl -s analyzer.pl
 
 ### Example
 
-```
+```bash
 $ swipl -s analyzer.pl
 
 ?- consult('diseases.pl').
@@ -32,6 +34,7 @@ true.
 blood
 true.
 ```
+
 Enter `halt.` to exit SWI-Prolog.
 
 ## Versioning
@@ -47,4 +50,5 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 This project is licensed under the MIT License - See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
+
 * The course professor [Jay Morris](http://www.cs.odu.edu/~jdm/)
